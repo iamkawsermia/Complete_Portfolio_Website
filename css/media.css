@@ -1,0 +1,1022 @@
+
+/* Extra small device  */
+@media(max-width: 576.5px){
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.863);
+}
+.navbar-nav {
+gap: 4px;
+background-color: grey;
+text-align: center;
+}
+.navbar-collapse {
+background-color: grey;
+border-radius: 15px;
+padding-bottom: 20px;
+}
+.navbar-nav .nav-link::after {
+    left: 50%;
+    bottom: -2px;
+    transform: translateX(-50%);
+}
+.navbar-nav .nav-link:hover::after {
+    width: 10%;
+}
+.sign-btn {
+    gap: 32px;
+    justify-content: center;
+}
+.sign-up a {
+    padding: 8px 17px;
+}
+.banner-items {
+    padding-top: 120px;
+}
+.banner-items p {
+    font-size: 20px;
+    line-height: 34px;
+}
+#banner-main {
+    height: 680px;
+}
+.button {
+    padding: 10px 20px;
+}
+.banner-items span {
+    font-size: 18px;
+}
+.discover-left h2 {
+    font-size: 42px;
+    padding-top: 60px;
+    line-height: 62px;
+}
+.discover-left p {
+    font-size: 19px;
+    padding-right: 4px;
+    padding-top: 11px;
+    padding-bottom: 24px;
+}
+.discover-right img {
+    padding-top: 0px;
+}
+#discover .blast1 {
+    width: 59vw;
+    z-index: 0;
+    bottom: 36%;
+}
+.banner-btn {
+    margin-left: 190px;
+    margin-bottom: 20px;
+            z-index: 100;
+        position: relative;
+}
+#discover {
+    padding-bottom: 10px;
+}
+#menu .img-fluid {
+    max-width: 80%;
+    height: auto;
+}
+.menu-text p {
+    font-size: 19px;
+    line-height: 34px;
+    padding-bottom: 27px;
+}
+.menu-gap {
+    gap: 40px;
+}
+.menu-items h6 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.menu-items span p {
+    padding-bottom: 11px;
+}
+#menu .common-head {
+    font-size: 40px;
+    padding-bottom: 0px;
+    line-height: 55px;
+}
+#different {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.different-head{
+    z-index: 2;
+    position: relative;
+}
+.blast2 {
+    top: -166px;
+    width: 74vw;
+    z-index: -1;
+}
+#different .row{
+    gap: 15px;
+}
+.differemt-items {
+    padding: 30px 14px;
+}
+.differemt-items h6 {
+    padding-top: 21px;
+    padding-bottom: 6px;
+}
+.different-head .common-head {
+    font-size: 35px;
+    padding-bottom: 2px;
+    line-height: 52px;
+    padding-top: 35px;
+}
+.common-p {
+    font-size: 19px;
+}
+.dif-txt h6 {
+    padding-bottom: 5px;
+}
+.dif-txt .button a {
+    padding: 5px;
+}
+.chance-right .cup {
+    right: 0px;
+    top: 42%;
+    width: 11rem;
+}
+.chance-left h6 {
+    font-size: 42px;
+    padding-top: 55px;
+    padding-bottom: 19px;
+}
+#chance {
+    height: 460px;
+}
+.chance-left p {
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 21px;
+    padding-right: 152px;
+}
+.chance-left .button {
+    padding: 8px 16px;
+}
+#chance .bean {
+    bottom: 0;
+    opacity: 0.8;
+    width: 27rem;
+}
+#feedback .common-head {
+    line-height: 55px;
+    font-size: 34px;
+    padding-bottom: 0px;
+}
+#feedback .feed-coffee1 {
+    top: -16%;
+    width: 68vw;
+}
+.feedback-text p {
+    padding-bottom: 5px;
+    font-size: 14px;
+    line-height: 34px;
+}
+.carousel-items .quot {
+    font-size: 34px;
+}
+.carousel-p {
+    padding: 60px 5px 50px 5px;
+}
+.carousel-items .ceo {
+    bottom: -6px;
+    width: 70px;
+}
+.carousel-p h5 {
+    font-size: 28px;
+}
+.slick-prev,
+    .slick-next {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        top: 85%;
+        opacity: 0.7;
+    }
+.slick-prev{
+        left: 16px;
+    }
+.slick-next{
+        right: 16px;
+    }
+.carousel-p .common-p{
+    line-height: 30px;
+}
+#feedback .feed-coffee2 {
+    bottom: -3%;
+    width: 36vw;
+}
+.footer-main .footercup1 {
+    top: 10%;
+    width: 0px;
+}
+.footer-main .footercup2 {
+    top: 10%;
+    width: 0px;
+}
+.form-txt h4 {
+    font-size: 36px;
+    padding-top: 27px;
+    line-height: 45px;
+    padding-bottom: 0px;
+}
+.email-form {
+    padding: 6px 19px 8px 13px;
+}
+.email-btn {
+    font-size: 14px;
+    padding: 8px 10px 9px 4px;
+}
+.footer-main #chance {
+    height: 290px;
+}
+.form-txt p {
+    font-size: 18px;
+    line-height: 29px;
+    padding-bottom: 16px;
+}
+.email-form::placeholder {
+    font-size: 14px;
+}
+.footer-padding {
+    padding-top: 20px;
+}
+.social h3 {
+    font-size: 36px;
+    padding-bottom: 2px;
+}
+.social p {
+    font-size: 13px;
+    line-height: 21px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+.social-icons i {
+    font-size: 20px;
+    margin-right: 0px;
+}
+.footer-common-head {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+.company{
+    text-align: end;
+}
+.sec-2 img {
+    height: 555px;
+}
+.contact ul li {
+    font-size: 16px;
+    line-height: 29px;
+    padding-right: 12px;
+}
+.contact #us {
+    padding-bottom: 0px;
+}
+.about ul li {
+    line-height: 28px;
+    font-size: 16px;
+}
+.company ul li {
+    line-height: 28px;
+    font-size: 16px;
+}
+.contact-us{
+     display: flex;
+        flex-wrap: wrap; 
+        gap: 0px;
+}
+
+}
+
+ /* small screen  */
+@media(min-width:578px) and (max-width:767.98px){
+
+.navbar-toggler{
+    background-color: rgba(255, 255, 255, 0.863);
+}
+.navbar-nav {
+gap: 4px;
+background-color: grey;
+text-align: center;
+}
+.navbar-collapse {
+background-color: grey;
+border-radius: 15px;
+padding-bottom: 20px;
+}
+.sign-btn {
+    gap: 32px;
+    justify-content: center;
+}
+.sign-up a {
+    padding: 8px 17px;
+}
+.navbar-nav .nav-link::after {
+    left: 50%;
+    bottom: -2px;
+    transform: translateX(-50%);
+}
+.navbar-nav .nav-link:hover::after {
+    width: 10%;
+}
+.banner-items {
+    padding-top: 130px;
+    padding-bottom: 35px;
+}
+#banner-main {
+    height: 750px;
+}
+.banner-items img {
+    padding-bottom: 15px;
+}
+.discover-left h2 {
+    font-size: 47px;
+    line-height: 60px;
+    padding-top: 70px;
+}
+.discover-left p {
+    padding-right: 2px;
+    padding-top: 18px;
+    padding-bottom: 28px;
+}
+.discover-right img {
+    padding-top: 0px;
+}
+#discover .blast1 {
+    width: 52vw;
+    bottom: -19px;
+    z-index: 0;
+}
+#menu .common-head {
+    padding-bottom: 2px;
+}
+.menu-text p {
+    font-size: 19px;
+    line-height: 34px;
+    padding-bottom: 27px;
+}
+.menu-gap {
+    gap: 55px;
+}
+.menu-items h6 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.menu-items {
+    height: 425px;
+}
+.menu-items span p {
+    padding-bottom: 11px;
+}
+#menu .img-fluid {
+    max-width: 70%;
+    height: auto;
+}
+.blast2 {
+    top: -180px;
+    width: 50vw;
+}
+#different {
+    padding-top: 35px;
+    padding-bottom: 60px;
+}
+#different .common-head {
+    font-size: 53px;
+    padding-bottom: 5px;
+}
+.different-txt p {
+    line-height: 33px;
+    padding-bottom: 22px;
+}
+.differemt-items {
+    padding: 50px 50px;
+}
+#different .row{
+    gap: 20px;
+}
+.common-p {
+    font-size: 19px;
+}
+.dif-txt h6 {
+    padding-bottom: 6px;
+}
+.button {
+    padding: 11px 18px;
+}
+.chance-right .cup {
+    right: -24px;
+    top: 36%;
+    width: 11rem;
+}
+.chance-left h6 {
+    font-size: 46px;
+    padding-top: 58px;
+    padding-bottom: 19px;
+}
+#chance {
+    height: 395px;
+}
+.chance-left p {
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 21px;
+}
+.chance-left .button {
+    padding: 8px 16px;
+}
+#chance .bean {
+    bottom: 0;
+    opacity: 0.8;
+}
+#chance .bean {
+    width: 385px;
+}
+#feedback .common-head {
+    line-height: 55px;
+    font-size: 34px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+#feedback .feed-coffee1 {
+    top: -16%;
+    width: 50vw;
+}
+.feedback-text p {
+    padding-bottom: 10px;
+    font-size: 17px;
+    line-height: 34px;
+}
+.carousel-items .quot {
+    font-size: 34px;
+}
+.carousel-p {
+    padding: 60px 38px 60px 38px;
+}
+.carousel-items .ceo {
+    bottom: -6px;
+    width: 70px;
+}
+.carousel-p h5 {
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.carousel-p .common-p{
+    line-height: 30px;
+}
+#feedback .feed-coffee2 {
+    bottom: -3%;
+    width: 36vw;
+}
+.slick-prev, .slick-next {
+    width: 60px;
+    height: 60px;
+}
+#feedback .common-head {
+    font-size: 36px;
+}
+footer {
+    padding-top: 60px;
+}
+.footer-main .footercup1 {
+    top: 10%;
+    width: 0px;
+}
+.footer-main .footercup2 {
+    top: 10%;
+    width: 0px;
+}
+.form-txt h4 {
+    font-size: 36px;
+    padding-top: 27px;
+    line-height: 45px;
+    padding-bottom: 0px;
+}
+.email-form {
+    padding: 6px 19px 8px 13px;
+}
+.email-btn {
+    font-size: 14px;
+    padding: 8px 10px 9px 4px;
+}
+.footer-main #chance {
+    height: 290px;
+}
+.form-txt p {
+    font-size: 18px;
+    line-height: 29px;
+    padding-bottom: 16px;
+}
+.email-form::placeholder {
+    font-size: 14px;
+}
+.footer-padding {
+    padding-top: 20px;
+}
+.social h3 {
+    font-size: 36px;
+    padding-bottom: 2px;
+}
+.social p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+.social-icons i {
+    font-size: 20px;
+    margin-right: 0px;
+}
+.footer-common-head {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+.company{
+    text-align: end;
+}
+.sec-2 img {
+    height: 510px;
+}
+.contact ul li {
+    font-size: 16px;
+    line-height: 29px;
+    padding-right: 11px;
+}
+.contact #us {
+    padding-bottom: 0px;
+}
+.about ul li {
+    line-height: 28px;
+    font-size: 16px;
+}
+.company ul li {
+    line-height: 28px;
+    font-size: 16px;
+}
+.contact-us{
+     display: flex;
+        flex-wrap: wrap; 
+        gap: 0px;
+}
+
+}
+
+/*== Medium device ===*/
+@media(min-width:768px) and (max-width:991.98px){
+
+.navbar-nav {
+    gap: 10px;
+}
+.sign-btn {
+    gap: 10px;
+}
+.sign-up a {
+    padding: 8px 18px;
+}
+.banner-items {
+    padding-top: 130px;
+}
+.discover-left h2 {
+    padding-top: 65px;
+    font-size: 42px;
+}
+.discover-left p {
+    font-size: 19px;
+    line-height: 34px;
+    padding-right: 0px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+}
+.discover-right img {
+    padding-top: 0px;
+}
+.discover-row{
+    justify-content: center;
+    align-items: center;
+}
+#discover .blast1 {
+    width: 44vw;
+    bottom: -35px;
+}
+.common-head {
+    font-size: 47px;
+    padding-bottom: 5px;
+    padding-top: 30px;
+}
+#menu {
+    padding-bottom: 5px;
+}
+.menu-text p {
+    font-size: 18px;
+    line-height: 29px;
+    padding-bottom: 28px;
+}
+.menu-items {
+    height: 413px;
+    margin-bottom: 40px;
+}
+#different {
+    padding-top: 44px;
+    padding-bottom: 45px;
+}
+.blast2 {
+    top: -130px;
+    width: 44vw;
+}
+.different-txt p {
+    font-size: 18px;
+    line-height: 23px;
+    padding-bottom: 26px;
+}
+.dif-p {
+    margin-bottom: 20px;
+}
+.dif-txt {
+    padding-top: 10px;
+}
+.dif-txt h6 {
+    padding-bottom: 0px;
+}
+.button {
+    padding: 8px 12px;
+}
+.chance-right .cup {
+    right: 59px;
+    top: 36%;
+    width: 13rem;
+}
+.chance-left p {
+    padding-right: 194px;
+}
+.chance-left h6 {
+    padding-bottom: 10px;
+    padding-top: 82px;
+}
+#chance {
+    height: 460px;
+}
+#chance .bean {
+    z-index: 2;
+    right: 0;
+    bottom: 0px;
+    width: 30rem;
+}
+#feedback .feed-coffee1 {
+    top: -12%;
+    width: 45vw;
+}
+.feedback-text h6 {
+    padding-top: 100px;
+}
+.feedback-text p {
+    padding-bottom: 30px;
+}
+.carousel-p {
+    padding: 103px 48px 85px 48px;
+}
+.carousel-items .quot {
+    font-size: 56px;
+}
+.slick-prev {
+    left: -30px;
+}
+.slick-next {
+    right: -22px;
+}
+.slick-prev, .slick-next {
+    width: 55px;
+    height: 55px;
+}
+.feedback-text p {
+    padding-bottom: 6px;
+}
+.carousel-items .ceo {
+    bottom: -2px;
+    width: 105px;
+}
+.carousel-p h5{
+    margin: 0;
+}
+.feedback-text p {
+    padding-bottom: 16px;
+}
+#feedback .feed-coffee2 {
+    bottom: -2%;
+    width: 31vw;
+}
+.footer-main .footercup1 {
+    top: 30%;
+    width: 150px;
+}
+.footer-main .footercup2 {
+    top: 30%;
+    width: 150px;
+}
+.form-txt h4 {
+    font-size: 47px;
+    padding-top: 75px;
+    padding-bottom: 2px;
+}
+.footer-main #chance {
+    height: 340px;
+}
+.form-txt p {
+    font-size: 18px;
+    line-height: 29px;
+    padding-bottom: 16px;
+}
+.email-form {
+    padding: 17px 170px 17px 26px;
+}
+.email-form::placeholder {
+    font-size: 18px;
+}
+.email-btn {
+    font-size: 20px;
+    padding: 12px 10px 16px 10px;
+}
+.footer-padding {
+    padding-top: 70px;
+}
+.contact-us{
+    text-align: end;
+}
+.contact{
+    text-align: end;
+}
+.contact ul li {
+    padding-right: 0px;
+}
+.social p {
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 18px;
+    line-height: 26px;
+    padding-right: 0px;
+}
+.social h3 {
+    font-size: 38px;
+    padding-bottom: 15px;
+}
+.footer-common-head {
+    padding-bottom: 13px;
+}
+.contact #us {
+    padding-bottom: 13px;
+}
+.sec-2 img {
+    height: 455px;
+}
+
+}
+
+
+/*== Large device ===*/
+@media(min-width:992px) and (max-width:1199.98px){
+
+.navbar-nav {
+    gap: 42px;
+}
+.sign-btn {
+    gap: 42px;
+}
+.banner-items {
+    padding-top: 150px;
+}
+#banner-main {
+    height: 745px;
+}
+.discover-row{
+    align-items: center;
+}
+.discover-left h2 {
+    padding-top: 90px;
+}
+.discover-left p {
+    font-size: 19px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+#discover .blast1 {
+    width: 36vw;
+    bottom: -25px;
+}
+.menu-items {
+    height: 325px;
+}
+#discover {
+    padding-bottom: 55px;
+}
+#different {
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+.blast2 {
+    top: -167px;
+    width: 35vw;
+}
+.differemt-items {
+    padding: 20px 20px;
+}
+.quality{
+    padding-top: 15px;
+}
+.differemt-items h6 {
+    padding-top: 0px;
+}
+.differemt-items .quality-h{
+    padding-top: 17px;
+}
+.common-head {
+    padding-bottom: 0px;
+}
+.button {
+    padding: 10px 19px;
+}
+.dif-txt h6 {
+    padding-bottom: 0px;
+}
+.chance-left h6 {
+    font-size: 47px;
+    padding-top: 75px;
+    padding-bottom: 7px;
+}
+#chance {
+    height: 470px;
+}
+#chance .bean {
+    bottom: 0;
+    width: 29rem;
+}
+.chance-right .cup {
+    top: 18%;
+    width: 14rem;
+}
+#feedback .feed-coffee1 {
+    top: -19%;
+    width: 45vw;
+}
+.slick-next {
+    right: -33px;
+}
+.slick-prev {
+    left: -33px;
+}
+.carousel-p {
+    padding: 130px 110px 100px 110px;
+}
+.carousel-items .quot {
+    font-size: 70px;
+}
+#feedback .feed-coffee2 {
+    bottom: -3%;
+    width: 34vw;
+}
+.footer-padding {
+    padding-top: 85px;
+}
+.footer-main #chance {
+    height: 390px;
+}
+.email-form {
+    padding: 17px 230px 17px 26px;
+}
+.email-btn {
+    padding: 10px 15px 15px 15px;
+}
+.footer-main .footercup1 {
+    top: 27%;
+    width: 190px;
+}
+.footer-main .footercup2 {
+    top: 27%;
+    width: 190px;
+}
+.sec-2 img {
+    height: 448px;
+}
+.social p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 12px;
+    padding-right: 27px;
+}
+.contact-us{
+    text-align: end;
+}
+.contact{
+    text-align: end;
+}
+.contact ul li {
+    padding-right: 0;
+    padding-left: 0px;
+}
+.contact ul li {
+    font-size: 17px;
+}
+
+}
+
+/*== Xtra Large device ===*/
+@media(min-width:1200px) and (max-width:1399.98px){
+
+
+#banner-main {
+    height: 755px;
+}
+.banner-items {
+    padding-top: 160px;
+}
+.discover-row{
+    align-items: center;
+}
+#discover .blast1 {
+    width: 32vw;
+    bottom: -33px;
+}
+.discover-left h2 {
+    font-size: 50px;
+    padding-top: 25px;
+}
+.menu-items {
+    height: 355px;
+}
+#different {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.blast2 {
+    top: -209px;
+    width: 33vw;
+}
+.differemt-items {
+    padding: 32px 22px;
+}
+.dif-txt h6 {
+    padding-bottom: 8px;
+}
+.button {
+    padding: 8px 18px;
+}
+#feedback .feed-coffee1 {
+    top: -21%;
+    width: 38vw;
+}
+.common-head {
+    padding-bottom: 0px;
+}
+.footer-main .footercup1 {
+    top: 25%;
+    width: 210px;
+}
+.footer-main .footercup2 {
+    top: 25%;
+    width: 210px;
+}
+.footer-padding {
+    padding-top: 110px;
+}
+.contact-us{
+    text-align: end;
+}
+.contact{
+    text-align: end;
+}
+.contact ul li {
+    padding-right: 0;
+    padding-left: 0px;
+}
+.contact ul li {
+    font-size: 17px;
+    line-height: 40px;
+}
+.sec-2 img {
+    height: 448px;
+}
+.social p {
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 20px;
+    padding-right: 27px;
+}
+.email-form {
+    padding: 17px 230px 17px 26px;
+}
+.email-btn {
+    padding: 10px 15px 15px 15px;
+}
+.footer-main #chance {
+    height: 375px;
+}
+
+}
+
+
+

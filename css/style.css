@@ -1,0 +1,729 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+/* navbar css */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: transparent;
+    padding-top: 20px;
+}
+
+.navbar-brand {
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    line-height: 100%;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-item a {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #F9C06A;
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: -2px;
+    background-color: #F9C06A;
+    transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar-nav {
+    gap: 60px;
+}
+
+.sign {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.sign-up {
+    background-color: #f9c06a;
+    border-radius: 25px;
+    transition: 0.25s;
+}
+
+.sign-up:hover {
+    background-color: #dba14afb;
+}
+
+.sign-up a {
+    color: #1E1E1E;
+    padding: 12px 27px;
+    display: inline-block;
+}
+
+.sign-up a:hover {
+    color: blue;
+    transition: all .25s ease-in-out;
+}
+
+.sign-btn {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}
+
+.sign-in a {
+    color: white;
+    display: inline-block;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.sign-in a:hover {
+    color: rgb(214, 214, 231);
+    transition: all 0.25s ease-in-out;
+}
+
+
+/* banner css goes here  */
+
+#banner-main {
+    position: relative;
+    z-index: 0;
+    background: url(../images/coffee_image.png) center/cover no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+#banner-main::after {
+    position: absolute;
+    content: "";
+    background: url(../images/overlay.png) center/cover no-repeat;
+    inset: 0;
+    z-index: 1;
+}
+
+#banner-main .container {
+    z-index: 2;
+    position: relative;
+}
+
+.banner-items {
+    padding-top: 183px;
+    padding-bottom: 25px;
+}
+
+.banner-items p {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100%;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.banner-items img {
+    padding-bottom: 25px;
+}
+
+.banner-items span {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 34px;
+    color: white;
+}
+
+.button {
+    padding: 14px 26px;
+    background-color: #F9C06A;
+    border-radius: 24px;
+}
+
+.button a {
+    color: #1E1E1E;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #dba24d;
+    transition: .25s ease-in-out;
+}
+
+/* discover css goes here  */
+
+#discover {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 42px;
+}
+
+.discover-left h2 {
+    color: #603809;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 54px;
+    padding-top: 150px;
+}
+
+.discover-left p {
+    color: #603809;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    padding-right: 43px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+
+.discover-right img {
+    padding-top: 50px;
+}
+
+#discover .blast1 {
+    position: absolute;
+    width: 24vw;
+    height: auto;
+    bottom: -20px;
+    z-index: -5;
+}
+
+/* menu css goes here  */
+
+#menu {
+    padding-bottom: 65px;
+}
+
+.menu-text {
+    text-align: center;
+}
+
+.common-head {
+    color: #603809;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 54px;
+    padding-bottom: 16px;
+}
+
+.menu-text p {
+    color: #707070;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    padding-bottom: 32px;
+}
+
+.menu-items {
+    text-align: center;
+    background-color: #f9c06a25;
+    position: relative;
+    border: 1px solid rgba(146, 146, 50, 0.466);
+    height: auto; 
+}
+
+.order-n {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+     margin-top: 15px;     
+    position: static; 
+}
+.order-n .button {
+    padding: 14px 26px;
+    background-color: #F9C06A;
+    border-radius: 24px;
+    position: absolute;
+    bottom: -27px;
+}
+
+.menu-items h6 {
+    color: #603809;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 14px;
+    padding-bottom: 2px;
+}
+
+.menu-items p {
+    color: #1E1E1E;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+
+.menu-items span p {
+    color: #603809;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+/* different css  */
+
+
+#different {
+    padding-top: 70px;
+    padding-bottom: 82px;
+    position: relative;
+}
+
+.blast2 {
+    position: absolute;
+    right: 0;
+    top: -80px;
+    width: 25vw;
+    height: auto;
+    z-index: -1;
+}
+
+.different-txt p {
+    color: #707070;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    padding-bottom: 32px;
+}
+
+.dif-p {
+    background-color: #F9C06A6B;
+}
+
+.dif-p:hover {
+    background-color: #FFEED8;
+    transition: 0.25s;
+}
+
+.differemt-items {
+    padding: 36px 40px;
+}
+
+.differemt-items h6 {
+    color: #603809;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 16px;
+    font-size: 28px;
+    padding-top: 25px;
+    padding-bottom: 8px;
+}
+
+.common-p {
+    color: #707070;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.dif-txt {
+    padding-top: 32px;
+}
+
+.dif-txt h6 {
+    color: #603809;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    padding-bottom: 24px;
+    font-size: 30px;
+}
+
+.dif-txt .button a {
+    padding: 10px;
+}
+
+/* chance css goes here  */
+
+
+#chance {
+    background: url(../images/chance.png) center/cover no-repeat;
+    height: 574px;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+#chance::after {
+    content: "";
+    position: absolute;
+    background: url(../images/chance2.png) center/cover no-repeat;
+    z-index: 1;
+    inset: 0;
+}
+
+#chance .container {
+    z-index: 3;
+    position: relative;
+}
+
+.chance-left h6 {
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 54px;
+    padding-top: 135px;
+    padding-bottom: 22px;
+}
+
+.chance-left p {
+    color: #FFFFFF;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    padding-right: 137px;
+    padding-bottom: 28px;
+}
+
+.chance-right .cup {
+    position: absolute;
+    z-index: 4;
+    right: 100px;
+    top: 12%;
+}
+
+#chance .bean {
+    position: absolute;
+    z-index: 3;
+    right: 0;
+}
+
+/* feedback css goes here  */
+
+
+#feedback {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#feedback .feed-coffee1 {
+    position: absolute;
+    right: 0;
+    top: 0%;
+    z-index: 1;
+    width: 25vw;
+}
+
+#feedback .feed-coffee2 {
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    z-index: 1;
+    width: 25vw;
+}
+
+.feedback-text h6 {
+    padding-top: 83px;
+}
+
+.feedback-text p {
+    padding-bottom: 45px;
+    color: #707070;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.carousel-p {
+    padding: 139px 150px 120px 150px;
+}
+
+.carousel-items {
+    position: relative;
+    border: 1px solid #f9c06a;
+    background-color: #F9C06A6B;
+}
+
+.carousel-items .quot {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #603809;
+    font-size: 103px;
+}
+
+.carousel-flow {
+    position: relative !important;
+    overflow: visible;
+}
+
+.carousel-items .ceo {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.carousel-p h5 {
+    font-family: "Playfair Display", serif;
+    color: #603809;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.ceo-img {
+    position: absolute;
+    bottom: -20px;
+    right: 50px;
+    z-index: 2;
+}
+
+.slick-prev,
+.slick-next {
+    background-color: #f9c06a;
+    border: none;
+    border-radius: 24px;
+    width: 85px;
+    height: 85px;
+    color: #603809;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.slick-prev {
+    left: -37px;
+}
+
+.slick-next {
+    right: -37px;
+}
+
+/* footer css goes here  */
+
+footer {
+    padding-top: 90px;
+}
+
+.footer-main {
+    position: relative;
+}
+
+.footer-main .footercup1 {
+    position: absolute;
+    z-index: 2;
+    top: 15%;
+    width: 344px;
+}
+
+.footer-main .footercup2 {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: 15%;
+    width: 344px;
+}
+
+.chance-footer .bean {
+    visibility: hidden;
+}
+
+.footer-main #chance {
+    height: 410px;
+}
+
+.form-txt {
+    z-index: 5;
+}
+
+.form-txt h4 {
+    font-family: "Playfair Display", serif;
+    font-size: 54px;
+    font-weight: 700;
+    padding-top: 80px;
+    color: white;
+    padding-bottom: 16px;
+}
+
+.form-txt p {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    color: white;
+    padding-bottom: 26px;
+}
+
+.email-form::placeholder {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #00000057;
+}
+
+.email-form {
+    padding: 17px 350px 17px 26px;
+    border-radius: 5px 0 0 5px;
+}
+
+.email-form:focus {
+    border: 2px solid #dba24d;
+    outline: none;
+}
+
+.email-btn {
+    color: #603809;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: "Playfair Display", serif;
+    padding: 10px 24px 15px 24px;
+    background-color: #f9c06a;
+    margin-left: -6px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+
+
+.sec-2 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sec-2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    height: 570px;
+    z-index: 0;
+}
+
+.sec-2::after {
+    position: absolute;
+    content: "";
+    background-color: #442808;
+    opacity: 0.8;
+    inset: 0;
+    z-index: 1;
+}
+
+.sec-2 .container {
+    z-index: 2;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+}
+
+.footer-padding {
+    padding-top: 162px;
+}
+
+.social h3 {
+    font-family: "Clicker Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 54px;
+    line-height: 100%;
+    padding-bottom: 20px;
+}
+
+.social p {
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    line-height: 22px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-padding ul {
+    margin: 0;
+    padding: 0;
+}
+
+.about ul li {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    line-height: 45px;
+    font-size: 18px;
+}
+
+.footer-common-head {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 27px;
+    padding-bottom: 35px;
+}
+
+.company ul li {
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    line-height: 45px;
+}
+
+.contact #us {
+    padding-bottom: 27px;
+}
+
+.contact ul li {
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    line-height: 45px;
+    padding-right: 60px;
+}
